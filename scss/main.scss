@@ -148,6 +148,7 @@ main {
     &:hover {
       padding: 0.5rem 1.5rem;
       background: $secondary-color;
+      cursor: none;
       color: set-text-color($secondary-color);
       span {
         color: set-text-color($secondary-color);
@@ -162,6 +163,7 @@ main {
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
+  text-align: center;
   &:hover {
     background: $secondary-color;
     color: set-text-color($secondary-color);
@@ -177,6 +179,17 @@ main {
 .btn-light {
   @extend .btn;
   background: lighten($primary-color, 50);
+  color: #fff;
+}
+
+// Stack Button
+.btn-stack {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+  text-align: center;
+  background: $primary-color;
   color: #fff;
 }
 

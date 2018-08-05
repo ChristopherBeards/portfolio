@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Personal website for Christopher Beards",
   "main": "index.js",
+  "homepage": "https://christopherbeards.github.io/portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Christopher Beards",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   }
 }
