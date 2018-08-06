@@ -1,3 +1,4 @@
+@import 'reset';
 @import 'config';
 @import 'menu';
 
@@ -23,7 +24,7 @@ h3 {
   font-weight: 400;
 
   &.lg-heading {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   &.sm-heading {
