@@ -186,10 +186,10 @@ main {
 .btn-stack {
   display: block;
   padding: 0.5rem 1rem;
-  border: 0;
+  border: none;
   margin-bottom: 0.3rem;
   text-align: center;
-  background: $primary-color;
+  background: $secondary-color;
   color: #fff;
 }
 
