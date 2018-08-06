@@ -234,10 +234,10 @@ main {
 .btn-stack {
   display: block;
   padding: 0.5rem 1rem;
-  border: 0;
+  border: none;
   margin-bottom: 0.3rem;
   text-align: center;
-  background: #444;
+  background: #800020;
   color: #fff; }
 
 #main-footer {
@@ -294,6 +294,6 @@ main {
       margin-top: 10vh; }
     main .lg-heading {
       margin-top: 1rem;
-      font-size: 4.5rem; }
+      font-size: 3.5rem; }
   .projects {
     grid-template-columns: 1fr; } }
