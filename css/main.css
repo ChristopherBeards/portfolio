@@ -308,6 +308,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
+    border-radius: 3px;
     border-bottom: #4d0013 5px solid; }
 
 .projects {
