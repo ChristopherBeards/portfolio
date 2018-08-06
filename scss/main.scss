@@ -109,6 +109,7 @@ main {
   .job {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
+    border-radius: 3px;
     border-bottom: $secondary-color 5px solid;
   }
 }
