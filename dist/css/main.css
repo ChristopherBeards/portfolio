@@ -186,14 +186,14 @@ table {
       height: 250px;
       background: url("../img/portrait.jpg");
       border-radius: 50%;
-      border: solid 3px #800020; }
+      border: solid 3px #4d0013; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #800020; }
+      color: #4d0013; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -205,7 +205,7 @@ table {
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #800020; }
+      color: #4d0013; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -269,7 +269,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #800020; }
+  color: #4d0013; }
 
 main {
   padding: 4rem;
@@ -279,7 +279,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #800020;
+        color: #4d0013;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -295,7 +295,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #800020 3px solid; }
+    border: #4d0013 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -308,7 +308,7 @@ main {
   .about-info .job {
     background: #515151;
     padding: 0.5rem;
-    border-bottom: #800020 5px solid; }
+    border-bottom: #4d0013 5px solid; }
 
 .projects {
   display: grid;
@@ -319,7 +319,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #800020;
+      border-color: #4d0013;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -336,7 +336,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #800020;
+      background: #4d0013;
       cursor: none;
       color: #fff; }
       .boxes div:hover span {
@@ -349,7 +349,7 @@ main {
   margin-bottom: 0.3rem;
   text-align: center; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #800020;
+    background: #4d0013;
     color: #fff; }
 
 .btn-dark {
@@ -366,7 +366,7 @@ main {
   border: none;
   margin-bottom: 0.3rem;
   text-align: center;
-  background: #800020;
+  background: #4d0013;
   color: #fff; }
 
 #main-footer {
