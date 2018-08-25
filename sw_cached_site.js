@@ -1,7 +1,6 @@
 const cacheName = 'cb_cached';
 
 const cacheAssets = [
-  '/',
   'sw_cached_site.js',
   'dist/index.html',
   'dist/about.html',
