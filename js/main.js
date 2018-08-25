@@ -1,3 +1,10 @@
+// * Make sure Service Workers are supported
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('../../sw_cached_site.js');
+  });
+}
+
 // * Select DOM Items
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
