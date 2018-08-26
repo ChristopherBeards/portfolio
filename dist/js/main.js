@@ -1,10 +1,7 @@
 // * Make sure Service Workers are supported
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker
-      .register('/portfolio/sw_cached_site.js')
-      .then(reg => console.log('Service Worker: registered'))
-      .catch(err => console.log(err));
+    navigator.serviceWorker.register('/portfolio/sw_cached_site.js');
   });
 }
 
