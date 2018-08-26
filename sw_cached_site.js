@@ -1,10 +1,10 @@
 const cacheName = 'cb_cached';
 
 const cacheAssets = [
-  '/dist/index.html',
-  '/dist/about.html',
-  '/dist/contact.html',
-  '/dist/work.html',
+  'index.html',
+  'about.html',
+  'contact.html',
+  'work.html',
   '/dist/css/main.css',
   '/dist/img/projects/pmhub.jpg',
   '/dist/img/projects/react-contactmgr.jpg',
