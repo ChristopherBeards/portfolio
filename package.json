@@ -8,6 +8,7 @@
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
+  "repository": "git@github.com:ChristopherBeards/portfolio.git",
   "author": "Christopher Beards",
   "license": "ISC",
   "dependencies": {
