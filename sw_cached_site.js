@@ -9,6 +9,7 @@ const cacheAssets = [
   '/portfolio/dist/img/projects/pmhub.jpg',
   '/portfolio/dist/img/projects/react-contactmgr.jpg',
   '/portfolio/dist/img/projects/react-fb-clientpanel.jpg',
+  '/portfolio/dist/img/projects/maincourse.jpg',
   '/portfolio/dist/img/background3.jpg',
   '/portfolio/dist/img/portrait.jpg',
   '/portfolio/dist/img/portraitsmall.jpg',
